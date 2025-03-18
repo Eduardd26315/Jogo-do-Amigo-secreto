@@ -1,38 +1,35 @@
-📋 Projeto: Gerenciador de Lista de Amigos
+# 📋 Projeto: Gerenciador de Lista de Amigos
+
 Este projeto consiste em uma aplicação simples para gerenciar uma lista de amigos. É possível adicionar amigos à lista, verificar os nomes adicionados e sortear aleatoriamente um nome da lista. Após o sorteio, o nome sorteado é exibido, e a lista é limpa automaticamente.
 
-🚀 Funcionalidades
-Adicionar Amigo: Insira o nome de um amigo no campo de texto para adicioná-lo à lista.
+## 🚀 Funcionalidades
 
-Validação para impedir a adição de campos vazios.
+- **Adicionar Amigo**: Insira o nome de um amigo no campo de texto para adicioná-lo à lista.
+  - Validação para impedir a adição de campos vazios.
+  - Apenas letras e espaços são aceitos como entradas válidas.
+  - Verificação para evitar duplicação de nomes na lista.
+  
+- **Exibir Lista de Amigos**: A lista é automaticamente atualizada a cada novo amigo adicionado.
 
-Apenas letras e espaços são aceitos como entradas válidas.
+- **Sortear Amigo**: Sorteia aleatoriamente um dos nomes armazenados na lista.
+  - Limpa automaticamente a lista após o sorteio.
+  - Exibe o nome sorteado.
 
-Verificação para evitar duplicação de nomes na lista.
+## 🛠️ Tecnologias Utilizadas
 
-Exibir Lista de Amigos: A lista é automaticamente atualizada a cada novo amigo adicionado.
+- **HTML**: Estrutura da aplicação.
+- **CSS**: Estilização simples para layout (opcional).
+- **JavaScript**: Lógica de programação do projeto.
 
-Sortear Amigo: Sorteia aleatoriamente um dos nomes armazenados na lista.
+## 📂 Estrutura do Projeto
 
-Limpa automaticamente a lista após o sorteio.
-
-Exibe o nome sorteado.
-
-🛠️ Tecnologias Utilizadas
-HTML: Estrutura da aplicação.
-
-CSS: Estilização simples para layout (opcional).
-
-📂 Estrutura do Projeto
-📦 Gerenciador de Lista de Amigos
-├── index.html    # Interface do usuário
-├── script.js     # Lógica do JavaScript
-├── style.css     # (Opcional) Estilos customizados
-└── README.md     # Documentação do projeto
+📦 Gerenciador de Lista de Amigos ├── index.html # Interface do usuário ├── script.js # Lógica do JavaScript ├── style.css # (Opcional) Estilos customizados └── README.md # Documentação do projeto
 
 
-Exemplo de Código:
 
+### **Exemplo de Código**
+
+```javascript
 let amigos = []; // Armazena os nomes dos amigos
 
 // Adicionar um amigo à lista
@@ -47,9 +44,10 @@ function sortearAmigo() {
 
 
 📋 Como Usar
+Clone o repositório:
+
+bash
 git clone https://github.com/seu-usuario/gerenciador-lista-amigos.git
-
-
 Abra o arquivo index.html em seu navegador.
 
 Use os seguintes passos na interface:
@@ -76,6 +74,4 @@ Documentação do JavaScript
 GitHub Pages
 
 
-JavaScript: Lógica de programação do projeto.
-
-
+Agora basta salvar esse conteúdo em um arquivo `README.md`, e ele será formatado corretamente, seja no GitHub, no VS Code ou em outro visualizador Markdown. Se precisar de mais ajuda, só avisar! 😊
