@@ -27,26 +27,9 @@ Este projeto consiste em uma aplicação simples para gerenciar uma lista de ami
 
 
 
-### **Exemplo de Código**
-
-```javascript
-let amigos = []; // Armazena os nomes dos amigos
-
-// Adicionar um amigo à lista
-function adicionarAmigo() {
-    // Lógica de validação e atualização da lista
-}
-
-// Sortear um amigo
-function sortearAmigo() {
-    // Lógica para sortear e limpar a lista
-}
-
-
 📋 Como Usar
 Clone o repositório:
 
-bash
 git clone https://github.com/seu-usuario/gerenciador-lista-amigos.git
 Abra o arquivo index.html em seu navegador.
 
@@ -74,4 +57,3 @@ Documentação do JavaScript
 GitHub Pages
 
 
-Agora basta salvar esse conteúdo em um arquivo `README.md`, e ele será formatado corretamente, seja no GitHub, no VS Code ou em outro visualizador Markdown. Se precisar de mais ajuda, só avisar! 😊
